@@ -24,7 +24,7 @@
   },
   "storage": {
     "model": "storage/yolov8m-obb.pt",
-    "assets": "storage/assets",
+    "assets": "storage/cars",
     "output": "storage/output"
   }
 }

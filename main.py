@@ -3,9 +3,7 @@ import json
 import click
 from munch import DefaultMunch
 
-
-from src.tester import TestUtil
-from src.config import DEFAULT_SETUP
+from src import *
 
 
 @click.command()
