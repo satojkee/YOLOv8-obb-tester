@@ -1,0 +1,30 @@
+{
+  "predict": {
+    "imgsz": 640,
+    "augment": false,
+    "save_conf": true,
+    "verbose": true,
+    "iou": 0.9,
+    "conf": 0.5
+  },
+  "visual": {
+    "label": {
+      "thickness": 2,
+      "fontScale": 0.7,
+      "color": [255, 255, 255]
+    },
+    "bbox": {
+      "thickness": 3,
+      "color": [0, 255, 0]
+    },
+    "lbox": {
+      "color": [255, 0, 0],
+      "thickness": -1
+    }
+  },
+  "storage": {
+    "model": "storage/yolov8m-obb.pt",
+    "assets": "storage/assets",
+    "output": "storage/output"
+  }
+}
